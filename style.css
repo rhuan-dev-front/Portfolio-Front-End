@@ -258,24 +258,19 @@ button:hover {
 /*CARDS*/
 
 .cards {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 30px;
-    flex-wrap: wrap;
 }
-
-
-
-/*CARD*/
 
 .card {
-    background-color: #111827;
-    max-width: 900px;
-    padding: 30px;
-    border-radius: 20px;
-    transition: 0.2s;
-    border: 1px solid transparent;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+
 
 .card:hover {
     transform: translateY(-10px);
