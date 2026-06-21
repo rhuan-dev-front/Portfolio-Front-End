@@ -406,5 +406,6 @@ footer span {
 
     .card {
         width: 90%;
+        justify-content: center;
     }
 }
